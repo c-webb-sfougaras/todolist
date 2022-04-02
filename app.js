@@ -65,7 +65,7 @@ app.get("/", function(req, res) {
 
 app.post("/", function(req, res){
   const itemName = req.body.newItem
-  const listName = req.body.list
+  const listName = req.body.listName
 
   const item = new Item ({
     name: itemName
