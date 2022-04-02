@@ -22,19 +22,13 @@ const itemSchema = {
 
 const Item = mongoose.model("item", itemSchema)
 
-const wakeUp = new Item ({
-  name: "Wake up"
+const createToDo = new Item ({
+  name: "Create your first 'to do'..."
 });
 
-const brushTeeth = new Item ({
-  name: "Brush your teeth"
-});
 
-const shower = new Item ({
-  name: "Take a shower"
-});
 
-const defaultItems = [wakeUp, brushTeeth, shower]
+const defaultItems = [createToDo]
 
 const listSchema ={
   name: String,
