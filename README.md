@@ -1,1 +1,1 @@
-# todolist
+This to do list website is created using EJS and which uses the Mongoose ORM to connect to a MongoDB database. If you add a new endpoint, a new list will be created and will save any to dos in their own database collection.
